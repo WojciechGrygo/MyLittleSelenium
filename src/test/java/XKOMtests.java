@@ -69,6 +69,7 @@ public class XKOMtests {
 
         actualText = driver.findElement(By.cssSelector("#emailAddress-error")).getText();
         assertThat(actualText).isEqualTo(expectedText);
+
     }
 
 
